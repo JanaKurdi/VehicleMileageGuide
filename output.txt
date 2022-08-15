@@ -1,0 +1,231 @@
+################################################
+########      Vehicle Mileage Guide     ########
+################################################
+
+-Number of vechicle types: 3
+
+- Command:add_vehicletypes
+	+ Hatchback	+ Sedan	+ SUV
+
+- Command: add_manufacturers
+	 ->VehicleType: Hatchback
+	  + Toyota	  + KIA	  + Hyundai
+
+- Command: add_manufacturers
+	 ->VehicleType: Sedan
+	  + Chevrolet	  + Nissan
+
+- Command: add_manufacturers
+	 ->VehicleType: SUV
+	  + Ford	  + Jeep
+
+- Command: add_vehicles
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: Toyota
+	 -> Number of vehicles: 3
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Yaris       		1.5      		2017			16.80
+	Vitz       		1.0      		2018			20.20
+	Passo       		1.3      		2018			17.60
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: KIA
+	 -> Number of vehicles: 6
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Rio       		1.4      		2019			19.20
+	Picanto       		1.0      		2019			23.40
+	Cerato       		1.8      		2019			15.50
+	Soul       		1.3      		2017			17.30
+	Forte       		1.5      		2018			16.50
+	Ceed       		1.4      		2019			17.70
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: Hyundai
+	 -> Number of vehicles: 3
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	i10       		1.0      		2019			21.80
+	Roadster       		1.8      		2017			16.60
+	Accent       		1.5      		2019			18.20
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: Sedan
+	 -> Manufacturer: Nissan
+	 -> Number of vehicles: 2
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Altima       		2.0      		2016			13.80
+	Maxima       		2.4      		2016			12.50
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: Sedan
+	 -> Manufacturer: Chevrolet
+	 -> Number of vehicles: 4
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Impala       		2.4      		2017			13.80
+	Malibu       		1.8      		2018			14.90
+	Cruze       		2.0      		2018			14.30
+	Lumina       		2.4      		2016			12.20
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: SUV
+	 -> Manufacturer: Ford
+	 -> Number of vehicles: 2
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Explorer       		2.3      		2016			15.20
+	Flex       		3.3      		2018			10.90
+    ----------------------------------------------------------------------------------------
+
+- Command: add_vehicles
+	 -> VehicleType: SUV
+	 -> Manufacturer: Jeep
+	 -> Number of vehicles: 1
+    ----------------------------------------------------------------------------------------
+	Model       		Engine Capacity         Year 			Mileage
+	Wrangler       		3.0      		2018			9.30
+    ----------------------------------------------------------------------------------------
+
+- Command: print_result
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: Toyota
+	 -> Number of vehicles: 3
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Yaris     	1.5		        2017      		16.80	  	0.09	 SAR
+	Vitz     	1.0		        2018      		20.20	  	0.07	 SAR
+	Passo     	1.3		        2018      		17.60	  	0.08	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 18.20
+	 *The best vechile is Vitz 1.0  (2018)
+	 *The worst vechile is Yaris 1.5  (2017)
+
+- Command: print_result
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: KIA
+	 -> Number of vehicles: 6
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Rio     	1.4		        2019      		19.20	  	0.07	 SAR
+	Picanto     	1.0		        2019      		23.40	  	0.06	 SAR
+	Cerato     	1.8		        2019      		15.50	  	0.09	 SAR
+	Soul     	1.3		        2017      		17.30	  	0.08	 SAR
+	Forte     	1.5		        2018      		16.50	  	0.09	 SAR
+	Ceed     	1.4		        2019      		17.70	  	0.08	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 18.27
+	 *The best vechile is Picanto 1.0  (2019)
+	 *The worst vechile is Cerato 1.8  (2019)
+
+- Command: print_result
+	 -> VehicleType: Hatchback
+	 -> Manufacturer: Hyundai
+	 -> Number of vehicles: 3
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	i10     	1.0		        2019      		21.80	  	0.07	 SAR
+	Roadster     	1.8		        2017      		16.60	  	0.09	 SAR
+	Accent     	1.5		        2019      		18.20	  	0.08	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 18.87
+	 *The best vechile is i10 1.0  (2019)
+	 *The worst vechile is Roadster 1.8  (2017)
+
+- Command: print_result
+	 -> VehicleType: Sedan
+	 -> Manufacturer: Nissan
+	 -> Number of vehicles: 2
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Altima     	2.0		        2016      		13.80	  	0.10	 SAR
+	Maxima     	2.4		        2016      		12.50	  	0.11	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 13.15
+	 *The best vechile is Altima 2.0  (2016)
+	 *The worst vechile is Maxima 2.4  (2016)
+
+- Command: print_result
+	 -> VehicleType: Sedan
+	 -> Manufacturer: Chevrolet
+	 -> Number of vehicles: 4
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Impala     	2.4		        2017      		13.80	  	0.10	 SAR
+	Malibu     	1.8		        2018      		14.90	  	0.10	 SAR
+	Cruze     	2.0		        2018      		14.30	  	0.10	 SAR
+	Lumina     	2.4		        2016      		12.20	  	0.12	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 13.80
+	 *The best vechile is Malibu 1.8  (2018)
+	 *The worst vechile is Lumina 2.4  (2016)
+
+- Command: print_result
+	 -> VehicleType: SUV
+	 -> Manufacturer: Ford
+	 -> Number of vehicles: 2
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Explorer     	2.3		        2016      		15.20	  	0.09	 SAR
+	Flex     	3.3		        2018      		10.90	  	0.13	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 13.05
+	 *The best vechile is Explorer 2.3  (2016)
+	 *The worst vechile is Flex 3.3  (2018)
+
+- Command: print_result
+	 -> VehicleType: SUV
+	 -> Manufacturer: Jeep
+	 -> Number of vehicles: 1
+  -------------------------------------------------------------------------------------------------------
+	Model     	Engine Capacity		Year      		KM/Liter	Cost per KM	 
+  -------------------------------------------------------------------------------------------------------
+	Wrangler     	3.0		        2018      		9.30	  	0.15	 SAR
+	-------------------------------------------------------------------------------------------------------
+	 *The average Mileage is 9.30
+	 *The best vechile is Wrangler 3.0  (2018)
+	 *The worst vechile is Wrangler 3.0  (2018)
+
+- Command: find_average_mileage
+	 * The average Mileage for all vehicles in all vehicle types is 16.08
+
+- Command: find_best_mileage
+	 * The best vehicle Mileage in all vehicle types is :
+	--------------------------------------------------------------------------------------------------------
+	Model 		Engine Capacity 	Year 		Mileage 	Cost per KM
+	--------------------------------------------------------------------------------------------------------
+	Picanto		1.0			2019		23.40		0.06	 SAR
+	--------------------------------------------------------------------------------------------------------
+	In Vechicle Type:Hatchback, manufacturer: KIA
+
+- Command: find_worst_mileage
+	 * The worst vehicle Mileage in all vehicle types is :
+	--------------------------------------------------------------------------------------------------------
+	Model 		Engine Capacity 	Year 		Mileage 	Cost per KM
+	--------------------------------------------------------------------------------------------------------
+	Wrangler	3.0			2018		9.30		0.15	 SAR
+	--------------------------------------------------------------------------------------------------------
+	In Vechicle Type:SUV, Manufacturer: Jeep
+
+- Command:about_guide
+	 -> Developed By: Jana Kurdi
+	 -> University ID: 1906167
+	 -> Section: GAR
+
+Thank You! :)
+Report generated on Mon Aug 15 20:29:06 AST 2022

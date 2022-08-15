@@ -1,0 +1,46 @@
+3
+3 2 2 
+add_vehicletypes Hatchback Sedan SUV
+add_manufacturers Hatchback Toyota KIA Hyundai 
+add_manufacturers Sedan Chevrolet Nissan
+add_manufacturers SUV Ford Jeep
+add_vehicles Hatchback Toyota 3
+Yaris_1.5_2017 16.8
+Vitz_1.0_2018 20.2
+Passo_1.3_2018 17.6
+add_vehicles Hatchback KIA 6
+Rio_1.4_2019 19.2
+Picanto_1.0_2019 23.4
+Cerato_1.8_2019 15.5
+Soul_1.3_2017 17.3
+Forte_1.5_2018 16.5
+Ceed_1.4_2019 17.7
+add_vehicles Hatchback Hyundai 3
+i10_1.0_2019 21.8
+Roadster_1.8_2017 16.6
+Accent_1.5_2019 18.2
+add_vehicles Sedan Nissan 2
+Altima_2.0_2016 13.8
+Maxima_2.4_2016 12.5
+add_vehicles Sedan Chevrolet 4
+Impala_2.4_2017 13.8
+Malibu_1.8_2018 14.9
+Cruze_2.0_2018 14.3
+Lumina_2.4_2016 12.2
+add_vehicles SUV Ford 2
+Explorer_2.3_2016 15.2
+Flex_3.3_2018 10.9
+add_vehicles SUV Jeep 1
+Wrangler_3.0_2018 9.3
+print_result Hatchback Toyota
+print_result Hatchback KIA
+print_result Hatchback Hyundai
+print_result Sedan Nissan
+print_result Sedan Chevrolet
+print_result SUV Ford
+print_result SUV Jeep
+find_average_mileage
+find_best_mileage
+find_worst_mileage
+about_guide
+exit
